@@ -1,72 +1,64 @@
-# Daily Expense Tracker 💰
+# Daily Expense Tracker
 
-## About the Project
+A desktop application built with **Python, Tkinter, and OpenPyXL** to record and review everyday income and expenses.
 
-Hi! This is my Python project called **Daily Expense Tracker**. I made this project to manage daily income and expenses in an easy way.
+## Overview
 
-Using this application, users can record their income and expenses and keep track of their money. It helps to understand how much money is spent and how much is saved.
+Daily Expense Tracker provides a simple graphical interface for managing transactions and keeping an eye on spending. Transaction records are stored in an Excel workbook, while budget settings are maintained separately.
 
 ## Features
 
-- Add income and expenses
-- View and manage transactions
-- Check total income and expenses
-- Track the available balance
-- Manage monthly budgets
-- View reports and charts
-- Export transaction data to CSV
-- Store data in an Excel file
+- Record income and expenses
+- Organize transactions by category
+- Add dates and descriptions to transactions
+- Review transaction history
+- Track budgets
+- Store transaction data in Excel
+- Maintain budget settings in JSON
+- Simple desktop interface built with Tkinter
 
-## Technologies Used
+## Tech Stack
 
-- Python
-- Tkinter
-- OpenPyXL
-- Matplotlib
-- JSON
+- **Language:** Python
+- **GUI:** Tkinter
+- **Excel handling:** OpenPyXL
+- **Settings storage:** JSON
 
-## How to Run the Project
+## Getting Started
 
-**Step 1:** Clone the repository.
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/umesh-rathod123/Daily-Expense-Tracker.git
-```
-
-**Step 2:** Open the project folder.
-
-```bash
 cd Daily-Expense-Tracker
 ```
 
-**Step 3:** Install the required libraries.
+### 2. Install the dependency
 
 ```bash
-python -m pip install matplotlib openpyxl
+python -m pip install openpyxl
 ```
 
-**Step 4:** Run the project.
+### 3. Run the application
 
 ```bash
 python main.py
 ```
 
-## Project Files
+If your local entry-point filename differs, run the main application file in the project folder.
 
-- `main.py` — Main file to run the application.
-- `Daily Expense Tracker.py` — Expense tracker application file.
-- `database.py` — Handles database and data storage operations.
+## Data Storage
 
-## What I Learned
+- Transaction records are stored in an Excel workbook.
+- Budget configuration is stored in `budgets.json`.
 
-While making this project, I got practical experience with Python programming, working with files, managing data, and creating a graphical user interface.
+Keep personal financial records private. Do not commit real transaction data or sensitive information to a public repository.
 
 ## Author
 
-**Umesh Rathod**
-
-GitHub: [umesh-rathod123](https://github.com/umesh-rathod123)
+**Umesh Rathod**  
+GitHub: [@umesh-rathod123](https://github.com/umesh-rathod123)
 
 ---
 
-This project was created as a learning project to improve my Python programming skills.
+*Created as a practical Python desktop project.*
